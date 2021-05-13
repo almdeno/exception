@@ -1,7 +1,13 @@
 # exception
 
 - version: v0.0.1
-- url: 
+- url: https://raw.githubusercontent.com/almdeno/exception/0.0.1/
+
+## usage
+
+```ts
+import {Exception, ExceptionProps} from 'exception/mod.ts';
+```
 
 ## ExceptionProps
 
