@@ -6,7 +6,7 @@
     "name": "exception",
     "version": "0.0.1",
     "author": "Alessandro Maclaine",
-    "url": "https://raw.githubusercontent.com/ALMaclaine/dpm/master/",
+    "url": "https://raw.githubusercontent.com/almdeno/exception/0.0.1/",
     "license": "MIT",
     "dependencies": [],
     "externals": {

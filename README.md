@@ -33,6 +33,5 @@ export class Exception {
     get userMessageShort();
     get userMessageLong();
 }
-
 ```
 
