@@ -1,7 +1,7 @@
-import {assertEquals} from './deps.ts';
-import {Exception} from "./exception.ts";
+import {assertEquals} from '../deps.ts';
+import {Exception} from "../lib/Exception.ts";
 
-Deno.test("exception works", async () => {
+Deno.test("safety works", async () => {
     const object = {
         id: "test_id",
         internalMessageShort: 'Test',

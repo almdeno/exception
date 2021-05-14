@@ -3,10 +3,10 @@
     "host": "http://servatron:8000"
   },
   "package": {
-    "name": "exception",
-    "version": "0.0.1",
+    "name": "safety",
+    "version": "0.0.2",
     "author": "Alessandro Maclaine",
-    "url": "https://raw.githubusercontent.com/almdeno/exception/0.0.1/",
+    "url": "https://raw.githubusercontent.com/almdeno/safety/0.0.2/",
     "license": "MIT",
     "dependencies": [],
     "externals": {
