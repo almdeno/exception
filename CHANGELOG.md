@@ -1,5 +1,8 @@
 # safety
 
+## v0.0.3
+    - Add data property to Err
+
 ## v0.0.2
     - Rename to safety
     - Add Optional + Tests

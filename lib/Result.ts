@@ -8,7 +8,8 @@ export interface ResultOk<T> {
 export interface ResultErr {
     isError: true,
     error: Error,
-    exception: Exception
+    exception: Exception,
+    data: object
 }
 
 export type Result<T> = ResultErr | ResultOk<T>;
@@ -20,11 +21,12 @@ export function Ok<T>(value: T): ResultOk<T> {
     };
 }
 
-export function Err(exception: Exception): ResultErr {
+export function Err(exception: Exception, data: object = {}): ResultErr {
     return {
         isError: true,
         error: new Error(exception.errorMessage),
-        exception
+        exception,
+        data: {...data}
     };
 }
 
