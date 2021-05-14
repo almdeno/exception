@@ -16,7 +16,7 @@ export type {
     ResultOk,
     ResultErr,
     Result,
-} from './lib/Result';
+} from './lib/Result.ts';
 
 export {
     Optional,
