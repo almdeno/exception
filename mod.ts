@@ -1,6 +1,9 @@
-export {
-    Exception,
+export type {
     ExceptionProps
+} from './lib/Exception.ts';
+
+export {
+    Exception
 } from './lib/Exception.ts';
 
 export {
