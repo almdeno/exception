@@ -8,12 +8,15 @@ export {
     ifErr,
     isOk,
     isErr,
-    ResultOk,
-    ResultErr,
-    Result,
     Ok,
     Err
 } from './lib/Result.ts';
+
+export type {
+    ResultOk,
+    ResultErr,
+    Result,
+} from './lib/Result';
 
 export {
     Optional,
