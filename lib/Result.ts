@@ -30,22 +30,22 @@ export function Err(exception: Exception, data: object = {}): ResultErr {
     };
 }
 
-export function isOk<T>(val: Result<T>): boolean {
+export function isOk<T>(val: Result<T>): val is ResultOk<T> {
     return val.isError === false;
 }
 
-export function isErr<T>(val: Result<T>): boolean {
+export function isErr<T>(val: Result<T>): val is ResultErr {
     return val.isError === true;
 }
 
 export function ifOk<T>(val: Result<T>, cb: (v: T) => void): void {
-    if(val.isError === false) {
+    if(isOk(val)) {
         cb(val.value);
     }
 }
 
 export function ifErr<T>(val: Result<T>, cb: (v: Exception) => void): void {
-    if(val.isError === true) {
+    if(isErr(val)) {
         cb(val.exception);
     }
 }

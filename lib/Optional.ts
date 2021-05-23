@@ -1,4 +1,4 @@
-import {Err, Ok, Result} from "./Result.ts";
+import {Err, Ok, Result, ResultOk} from "./Result.ts";
 import {Exception} from "./Exception.ts";
 
 export const InvalidOptionalGetException = new Exception({
@@ -21,7 +21,7 @@ export class Optional<T> {
         }
     }
 
-    public isPresent(): boolean {
+    public isPresent() {
         return !!this.value
     }
 

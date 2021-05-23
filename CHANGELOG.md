@@ -1,5 +1,8 @@
 # safety
 
+## v0.0.4
+    - Add typeguards to isOk/isErr
+
 ## v0.0.3
     - Add data property to Err
 
