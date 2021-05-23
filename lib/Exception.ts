@@ -46,9 +46,9 @@ export class Exception {
 }
 
 export const UnexpectedException = new Exception({
-    id: 'UNEXPECTED_EXCEPTION';
-    internalMessageShort: 'An unexpected exception occurred';
-    internalMessageLong: 'An unexpected exception occurred';
-    userMessageShort: 'An unexpected exception occurred';
-    userMessageLong: 'An unexpected exception occurred';
+    id: 'UNEXPECTED_EXCEPTION',
+    internalMessageShort: 'An unexpected exception occurred',
+    internalMessageLong: 'An unexpected exception occurred',
+    userMessageShort: 'An unexpected exception occurred',
+    userMessageLong: 'An unexpected exception occurred',
 });
