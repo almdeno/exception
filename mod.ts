@@ -1,10 +1,10 @@
 export type {
-    ExceptionProps,
-    UnexpectedException
+    ExceptionProps
 } from './lib/Exception.ts';
 
 export {
-    Exception
+    Exception,
+    UnexpectedException
 } from './lib/Exception.ts';
 
 export {
