@@ -4,9 +4,9 @@
   },
   "package": {
     "name": "safety",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": "Alessandro Maclaine",
-    "url": "https://raw.githubusercontent.com/almdeno/safety/0.0.4/",
+    "url": "https://raw.githubusercontent.com/almdeno/safety/0.0.5/",
     "license": "MIT",
     "dependencies": [],
     "externals": {

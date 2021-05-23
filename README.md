@@ -1,7 +1,7 @@
 # safety
 
-- version: v0.0.4
-- url: https://raw.githubusercontent.com/almdeno/safety/0.0.4/
+- version: v0.0.5
+- url: https://raw.githubusercontent.com/almdeno/safety/0.0.5/
 
 ## usage
 

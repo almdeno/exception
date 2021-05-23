@@ -44,3 +44,11 @@ export class Exception {
         return this._userMessageLong;
     }
 }
+
+export const UnexpectedException = new Exception({
+    id: 'UNEXPECTED_EXCEPTION';
+    internalMessageShort: 'An unexpected exception occurred';
+    internalMessageLong: 'An unexpected exception occurred';
+    userMessageShort: 'An unexpected exception occurred';
+    userMessageLong: 'An unexpected exception occurred';
+});

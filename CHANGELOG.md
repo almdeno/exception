@@ -1,5 +1,8 @@
 # safety
 
+## v0.0.5
+    - Add UnexpectedException
+
 ## v0.0.4
     - Add typeguards to isOk/isErr
 
