@@ -3,6 +3,11 @@
 - version: v0.0.5
 - url: https://raw.githubusercontent.com/almdeno/safety/0.0.5/
 
+## background information
+
+- https://blog.logrocket.com/pattern-matching-and-type-safety-in-typescript-1da1231a2e34/
+- https://dev.to/_gdelgado/type-safe-error-handling-in-typescript-1p4n
+
 ## usage
 
 ## Exception
